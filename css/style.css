@@ -1,0 +1,44 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../image/1669711801_cerenas-club-p-foni-dlya-delovoi-prezentatsii-instagram-39.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+  }
+  
+  .stopwatch {
+    text-align: center;
+    background-color: rgba(52, 73, 94, 0.6); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  #display {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ecf0f1; 
+  }
+  
+  button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #3498db; 
+    color: #ecf0f1; 
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: green;
+    color: white;
+    
+  }
+  
